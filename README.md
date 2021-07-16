@@ -19,3 +19,8 @@ Configurando projeto
 - Clonar repositório
 - Iniciando a aplicação
 - Chicken dance!
+
+Configurando o Heroku
+====
+
+- Passo a passo para configuração do ambiente do heroku
