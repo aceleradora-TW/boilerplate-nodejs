@@ -17,28 +17,20 @@ __Dicas:__
 Utilize o operador `%` para saber se um número é divisível por outro. Para saber se um número é divisível por 2, por
 exemplo, podemos usar o seguinte:
 
-```java
-int numero = 4;
+```javascript
+const numero = 4;
 
 if (numero % 2 == 0) {
-    System.out.println("O numero eh divisivel por 2");
+    console.log("O numero eh divisivel por 2");
 } else {
-    System.out.println("O numero nao eh divisivel por 2");
+    console.log("O numero nao eh divisivel por 2");
 }
 ```
-Para converter um número inteiro para String, pode-se utilizar os métodos `Integer.toString()`,
-`String.valueOf` ou ainda `Objects.toString`:
+Para converter um número inteiro para String, pode-se utilizar os métodos `toString()`,
 
-```java
-String numero = Integer.parseInt(2); // numero == "2"
-
-// ou
-
-String outroNumero = String.valueOf(4); // outroNumero == "4"
-
-// ou
-
-String maisUmNumero = Objects.toString(5); // maisUmNumero == "5"
+```javascript
+const numero = 1
+const x = numero.toString(); // x === "1"
 
 ```
 
