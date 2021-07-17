@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules --no-notify src/index.ts",
-    "test": "jest src/tests/app",
-    "test:exercicios": "jest src/tests/trilha-exercicios-js",
+    "test": "jest --verbose src/tests/app",
+    "test:exercicios": "jest --verbose src/tests/trilha-exercicios-js",
     "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files --no-copy-ignored"
   },
   "keywords": [
