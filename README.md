@@ -74,3 +74,9 @@ TypeORM
     yarn typeorm migration:create -n <NomeDaMigration>
     ```
 
+Setup no Heroku
+====
+
+Variaveis de ambiente:
+`NODE_ENV` : `prod` ou `test`
+`DATABASE_URL` : `link gerado pelo Heroku postgres`
